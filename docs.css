@@ -1,0 +1,89 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Rowdies', sans-serif;*/
+
+body{
+    margin: 0;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-box{
+    text-align: center;
+}
+
+.main-box img{
+    width: 70%;
+    height: 70%;
+}
+
+@media screen and (min-width:1000px) {
+   
+    .main-box img{
+        width: 20%;
+        height: 20%;
+    } 
+}
+
+.box-content-statuts-info{
+    text-align: center;
+    padding: 7px;
+}
+
+.box-content-statuts-info img{
+    height: 40%;
+    width: 40%;
+}
+
+.box-content-statuts-info h3{
+    font-family: 'Rowdies', sans-serif;
+    letter-spacing: 4px;
+}
+
+.box-content-adhesion-info{
+    text-align: center;
+    padding: 7px;
+}
+
+.box-content-adhesion-info h3{
+    font-family: 'Rowdies', sans-serif;
+    letter-spacing: 4px;
+}
+
+.box-content-adhesion-info img{
+    height: 40%;
+    width: 40%;
+}
+
+.box-content-reglement-info{
+    text-align: center;
+    padding: 7px;
+}
+
+.box-content-reglement-info h3{
+    font-family: 'Rowdies', sans-serif;
+    letter-spacing: 4px;
+}
+
+.box-content-reglement-info img{
+    height: 40%;
+    width: 40%;
+}
+
+@media screen and (min-width:1000px) {
+    .box-content-reglement-info img{
+        height: 20%;
+        width: 20%;
+    }
+    .box-content-adhesion-info img{
+        height: 20%;
+        width: 20%;
+    }
+    .box-content-statuts-info img{
+        height: 20%;
+        width: 20%;
+    }
+}
